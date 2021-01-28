@@ -4,9 +4,9 @@ public class App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int itemPrice = 34;
-		int moneyinWallet	= 243;
-		double numberFriends = 20.00;
+		double itemPrice = 34.99;
+		double moneyinWallet	= 243;
+		int numberFriends = 20;
 		double age = 45.00;
 		String firstName = "Nancy";
 		String lastName = "Philips";
@@ -23,12 +23,11 @@ public class App {
 		moneyinWallet = moneyinWallet - itemPrice;
 		System.out.println("New money in the wallet is: " + moneyinWallet); //New money in wallet
 		
-		numberFriends = age / numberFriends;
-		System.out.println("Number of Friends made based on age: " + numberFriends); //number of Friends made base on age
+		double numberofFriendPerYear = (double)numberFriends / age; 
+		System.out.println("Number of Friends made based on age: " + numberofFriendPerYear); //number of Friends made base on age
 		
 		String fullName = firstName + " " + middleInitial + " " + lastName;
-		System.out.println( "Nancy's full name is: " + fullName); // Full Name
-		
+		System.out.println( "Nancy's full name is: " + fullName); // Full Name 
 		
 	}
 
