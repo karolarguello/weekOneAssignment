@@ -11,6 +11,14 @@ public class App {
 		String firstName = "Nancy";
 		String lastName = "Philips";
 		char middleInitial = 'T';
+		
+		int itemPrice2 = 13;
+		int moneyinWallet2 = 32;
+		int numberFriends2 = 15;
+		int age2 = 37;
+		String firstName2 = "Todd";
+		String lastName2 = "Smith";
+		char middleInitial2 = 'A';
 
 		System.out.println("Item's Price is: " + itemPrice);
 		System.out.println("Ammount of Monney in Wallet is: " + moneyinWallet);
@@ -19,6 +27,14 @@ public class App {
 		System.out.println("Person's Frist Name is: " + firstName);
 		System.out.println("Person's Last Name is: " + lastName);
 		System.out.println("Person's Middle Initial is: " + middleInitial);
+		
+		System.out.println("Second item's Price is: " + itemPrice2);
+		System.out.println("Second Ammount of Monney in Wallet is: " + moneyinWallet2);
+		System.out.println("Second Number of Friends is: " + numberFriends2);
+		System.out.println("Second Person's Age is: " + age2);
+		System.out.println("Second Person's Frist Name is: " + firstName2);
+		System.out.println("Second Person's Last Name is: " + lastName2);
+		System.out.println("Second Person's Middle Initial is: " + middleInitial2);
 		
 		moneyinWallet = moneyinWallet - itemPrice;
 		System.out.println("New money in the wallet is: " + moneyinWallet); //New money in wallet
