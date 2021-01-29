@@ -45,6 +45,7 @@ public class App {
 		String fullName = firstName + " " + middleInitial + " " + lastName;
 		System.out.println( "Nancy's full name is: " + fullName); // Full Name 
 		
+		
 	}
 
 }
